@@ -31,7 +31,7 @@ print(f"{cyan}{bold}@Evan0139366058{end}")
 print()
 
 # inputs
-print('Escribe el numero celular con o sin prefijos (+52) (0)\nexample: 9018017010')
+print('Escribe el numero celular con o sin prefijos (+52) (0)\nexample: +525523975882')
 input_number = input(green + bold + ">> " + end)
 print('Cuantos sms deseas enviar')
 sms = int(input(green + bold + ">> " + end))
