@@ -14,6 +14,8 @@ print(f"{green}{bold}\t\t{underline}[SMSBOMBERv0.1]{end}")
 
 print()
 print(f"{bold}Creado por{end}", end="")
+print("                                                      ")
+print(f"{cyan}{bold}                                   {end}")
 print(f"{cyan}{bold}▓█████ ██▒   █▓ ▄▄▄       ███▄    █{end}")
 print(f"{cyan}{bold}▓█   ▀▓██░   █▒▒████▄     ██ ▀█   █{end}")
 print(f"{cyan}{bold}▒███   ▓██  █▒░▒██  ▀█▄  ▓██  ▀█ ██▒{end}")
