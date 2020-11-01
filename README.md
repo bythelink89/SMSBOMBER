@@ -1,5 +1,5 @@
 # SMSBOMBER
-![alt text](img/test.jpg)
+![alt text](images/test.jpg)
 <br/>
 <b>Hey!</b>
 Este es un smsbomber que envia sms anonimos <br/>
