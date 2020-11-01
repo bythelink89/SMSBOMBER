@@ -13,17 +13,27 @@ red       = '\033[91m'
 print(f"{green}{bold}\t\t{underline}[SMSBOMBERv0.1]{end}")
 
 print()
-print(f"{bold}Escrito por{end}", end="")
-print(f"{green}{bold} >> {end}", end="")
-print(f"{cyan}{bold}Evan01{end}")
+print(f"{bold}Creado por{end}", end="")
+print(f"{green}{bold}  {end}", end="")
+print(f"{cyan}{bold}
+
+███████ ██    ██  █████  ███    ██  ██████   ██ 
+██      ██    ██ ██   ██ ████   ██ ██  ████ ███ 
+█████   ██    ██ ███████ ██ ██  ██ ██ ██ ██  ██ 
+██       ██  ██  ██   ██ ██  ██ ██ ████  ██  ██ 
+███████   ████   ██   ██ ██   ████  ██████   ██ 
+                                                
+                                                
+
+{end}")
 
 print(f"{bold}Twitter{end}", end="")
-print(f"{green}{bold} >> {end}", end="")
+print(f"{green}{bold} $$ {end}", end="")
 print(f"{cyan}{bold}@Evan0139366058{end}")
 print()
 
 # inputs
-print('Escribe el numero celular con o sin prefijos (+7) (8)\nexample: 9018017010')
+print('Escribe el numero celular con o sin prefijos (+52) (0)\nexample: 9018017010')
 input_number = input(green + bold + ">> " + end)
 print('Cuantos sms deseas enviar')
 sms = int(input(green + bold + ">> " + end))
@@ -44,7 +54,7 @@ def parse_number(number):
 		elif int(len(number)) == 10 and number[0] == 9:
 			print(msg)
 	else:
-		print(f"[*]check number - {red}{bold}Numero Fallido!{end}\nThis bomber is intended only for Russia and if the number you entered belongs to another country then alas this bomber is not suitable for you!")
+		print(f"[*]check number - {red}{bold}Numero Fallido!{end}\nEste SMSBOMBER solo esta disponible para Mexico")
 		quit()
 	return number
 number = parse_number(input_number)
